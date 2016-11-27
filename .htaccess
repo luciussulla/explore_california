@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^czasy-angielskie.com.pl$ [NC]
+RewriteRule ^(.*)$ http://www.czasy-angielskie.com.pl/$1 [R=301,L]
